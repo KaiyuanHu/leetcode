@@ -22,4 +22,5 @@ class Solution {
         }
         return R - L - 1;
     }
+    
 }
