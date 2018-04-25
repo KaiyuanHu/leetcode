@@ -8,7 +8,9 @@ class Solution {
             f[i][j] = false;
           }
         }
-        f[0][0] = true;
+        
+        f[0][0] = true; // init status
+        
         for (int i = 0; i <= s.length(); i++) {
           for (int j = 1; j <= p.length(); j++) {
             if (i > 0 && (s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '.')) {
