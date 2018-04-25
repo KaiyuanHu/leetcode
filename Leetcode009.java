@@ -9,6 +9,5 @@ class Solution {
             old_val = old_val/10;
         }
         return new_val == x;
-
     }
 }
