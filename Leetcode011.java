@@ -2,6 +2,7 @@
 
 class Solution {
     public int maxArea(int[] height) {
+        // this is a two pointer problem
         int left = 0, right = height.length - 1;
         int maxArea = 0;
         while(right > left){
