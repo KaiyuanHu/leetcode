@@ -9,7 +9,7 @@ class Solution {
             result[i] = "";
         }
         int step = 0, indicate = 0;
-
+        // core part is chech when and where to change the val of step
         for (int i = 0; i<s.length(); i++){
             result[step] += s.charAt(i);
             if(step == 0){indicate = 1 ;}
