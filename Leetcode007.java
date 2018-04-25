@@ -9,7 +9,9 @@ class Solution {
             int mod = res%10;
             res = res/10;
             int new_result = result*10 + mod;
-            if ((new_result - mod) / 10 != result) { return 0; }
+            if ((new_result - mod) / 10 != result) { 
+                return 0; 
+            }
             result = new_result;
         }
         if (x<0) result = -result;
