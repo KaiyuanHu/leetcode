@@ -1,5 +1,6 @@
 # Leetcode 123 Best Time to Buy and Sell Stock III
 
+# Greedy Solution
 
 class Solution(object):
     def maxProfit(self, prices):
