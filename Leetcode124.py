@@ -1,4 +1,4 @@
-# Leetcode 124. Binary Tree Maximum Path Sum
+# Leetcode 124 Binary Tree Maximum Path Sum
 
 # Definition for a binary tree node.
 # class TreeNode(object):
